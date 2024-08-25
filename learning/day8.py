@@ -1,3 +1,15 @@
+#functions with inputs basics
+def greet():
+    print("Hello MAHI")
+    print("How do you do ABC?")
+    print("Isn't the weather nice?")
+greet()
+# Function that allows for inputs
+def greet_with_name(name):
+    print(f"Hello {name}")
+    print(f"How do you do {name}?")
+greet_with_name("Billie")
+
 #life in week calculator
 def life_in_weeks(age):
     years_remaining = 90 - age
